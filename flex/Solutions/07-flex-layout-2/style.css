@@ -19,6 +19,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
@@ -32,7 +34,8 @@ body {
 }
 
 .sidebar {
-  min-width: 300px;
+  width: 300px;
+  flex-shrink: 0;
   background: royalblue;
   display: flex;
   flex-direction: column;
@@ -56,17 +59,19 @@ li {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  
+  padding-bottom: 48px;
+  width: 225px;
+  font-size: 12px;
 }
 
 .card.collection {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 300px;
+  flex: auto;
+  padding: 48px;
 }
 
 .divide {
   display: flex;
-
 }
