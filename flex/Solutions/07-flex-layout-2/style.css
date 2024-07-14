@@ -56,19 +56,17 @@ li {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  width: 400px;
-  height: 500px;
   
 }
 
 .card.collection {
-  padding: 48px;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
 }
 
 .divide {
   display: flex;
+
 }
