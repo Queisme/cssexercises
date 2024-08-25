@@ -14,8 +14,6 @@ html {
   gap: 15px;
 }
 
-/* grid-template-rows / grid-template-columns  */
-
 .container div {
   padding: 15px;
   font-size: 32px;
